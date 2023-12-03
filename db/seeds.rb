@@ -7,18 +7,8 @@
 #   Character.create(name: "Luke", movie: movies.first)
 User.destroy_all
 
-sam = User.create!(
-  email:"sam@sdesign.com",
-  password:"123456"
-)
-
-josh = User.create!(
-  email:"josh@sdesign.com",
-  password:"123456"
-)
-
-marina = User.create!(
-  email:"marina@sdesign.com",
+admin = User.create!(
+  email:"admin@sdesign.com",
   password:"123456"
 )
 
