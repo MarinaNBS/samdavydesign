@@ -1,7 +1,5 @@
 class PortfolioController < ApplicationController
-  def index
-    @portfolio = Portfolio.all
+  def show
+    @portfolio = Portfolio.find_by(id: params[:id] || 'default')
   end
-
-
 end
