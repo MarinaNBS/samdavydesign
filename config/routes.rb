@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   resources :portfolio, only: [:show], id: 'default'
   resources :aboutme, only: [:show], id: 'default'
+  resources :contact, only: [:show], id: 'default'
 
 
   # Defines the root path route ("/")
