@@ -1,12 +1,30 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  height: 200px;
+  z-index: 2;
+
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
+// .navbar-lewagon .navbar-collapse {
+//   flex-grow: 0;
+// }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+// .navbar-lewagon .navbar-brand img {
+//   width: 40px;
+// }
+// .container-fluid{
+//   margin-left: 611px;
+//   margin-top: 185px;
+//   position: fixed;
+// }
+.container-fluid{
+  margin-left: 404px;
+  margin-bottom: -145px;
+  position: relative;
+  font-family: "Indie Flower";
+  font-size: 29px;
 }
+.nav-link:hover {
+   color: #D04848;
+ }
