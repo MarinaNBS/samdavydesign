@@ -5,8 +5,9 @@
   z-index: 2;
 
 }
-.navbar-nav me-auto{
+.me-auto{
   margin-top: 39px;
+  margin-left: -54px !important;
 }
 // .navbar-lewagon .navbar-collapse {
 //   flex-grow: 0;
@@ -38,4 +39,7 @@
  .title{
   margin-left: 142px;
   margin-top: -58px;
+}
+.nav-item{
+  margin-left: 34px;
 }
