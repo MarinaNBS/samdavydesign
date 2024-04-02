@@ -5,7 +5,9 @@
   z-index: 2;
 
 }
-
+.navbar-nav me-auto{
+  margin-top: 39px;
+}
 // .navbar-lewagon .navbar-collapse {
 //   flex-grow: 0;
 // }
@@ -20,11 +22,20 @@
 // }
 .container-fluid{
   margin-left: 404px;
-  margin-bottom: -145px;
+  margin-bottom: -178px;
   position: relative;
   font-family: "Indie Flower";
-  font-size: 29px;
+  font-size: 32px;
 }
 .nav-link:hover {
    color: #D04848;
  }
+ .logo{
+  margin-top: -114px;
+  margin-left: 290px;
+
+ }
+ .title{
+  margin-left: 142px;
+  margin-top: -58px;
+}
